@@ -10,7 +10,9 @@
  
 ## Routes 
 
-### GET `/api/departments` - returns a list of departments
+### GET `/api/departments`
+
+Returns a list of departments that belong to a school.
 
 ```
  {
@@ -29,7 +31,9 @@
  }
 ```
 
-### GET `/api/departments/:id` - returns the data for a specific department
+### GET `/api/departments/:id`
+
+Returns specific data about a department
  
 ```
  {

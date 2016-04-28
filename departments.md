@@ -8,11 +8,15 @@
 |name                 |String            |true         |
 |description          |String            |false        |
  
-## Routes 
+## Routes
 
-### GET `/api/departments`
+The following routes should be implemented.
+
+`GET /api/departments`
 
 Returns a list of departments that belong to a school.
+
+Response
 
 ```
  {
@@ -31,9 +35,11 @@ Returns a list of departments that belong to a school.
  }
 ```
 
-### GET `/api/departments/:id`
+`GET /api/departments/:id`
 
 Returns specific data about a department
+
+Response
  
 ```
  {

@@ -1,9 +1,12 @@
 # Departments
 
-## Required Fields 
- - id 
- - name
- - description
+## Fields 
+
+|Field Name           |Field Type        |Required     |
+|---------------------|------------------|-------------|
+|id                   |Integer           |true         |
+|name                 |String            |true         |
+|description          |String            |false        |
  
 ## Routes 
 
